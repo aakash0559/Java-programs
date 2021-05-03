@@ -1,4 +1,4 @@
-package HWString;
+package hwString;
 
 public class CheckPresentOrNot {
 

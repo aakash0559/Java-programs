@@ -1,7 +1,6 @@
 package hwString;
 
-public class Anogram {
-
+public class Anagram {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String s = "listen";
@@ -28,7 +27,6 @@ public class Anogram {
 		for (int i = 0; i < a1.length; i++) {
 			a1[i] = t.charAt(i);
 		}
-
 		for (int i = 0; i < a1.length; i++) {
 			for (int j = i + 1; j < a1.length; j++) {
 				if (a1[i] > a1[j]) {
@@ -41,9 +39,7 @@ public class Anogram {
 		}
 		if (w.equals(w1)) {
 			System.out.println("Anogram");
-		}
-
-		else {
+		} else {
 			System.out.println("not a Anogram");
 		}
 	}
